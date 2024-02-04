@@ -45,17 +45,35 @@ const Home = () => {
           className='slider_container  max-w-[90%] mt-3'
         >
           <Marquee direction='left'>
-            <div className='image_container'>
-              <div className='imgs max-h-24 h-[300px]  flex flex-row'>
+            <div className='image_container flex flex-row'>
+              <div className='imgs w-44'>
                 <img src={image1} alt='image1' />
+              </div>
+              <div className='imgs w-44'>
                 <img src={image2} alt='image1' />
+              </div>
+              <div className='imgs w-44'>
                 <img src={image3} alt='image1' />
+              </div>
+              <div className='imgs w-44'>
                 <img src={image4} alt='image1' />
-                <img src={image15} alt='image1' />
+              </div>
+              <div className='imgs w-44'>
+                <img src={image5} alt='image1' />
+              </div>
+              <div className='imgs w-44'>
                 <img src={image6} alt='image1' />
+              </div>{" "}
+              <div className='imgs w-44'>
                 <img src={image7} alt='image1' />
+              </div>
+              <div className='imgs w-44'>
                 <img src={image8} alt='image1' />
+              </div>
+              <div className='imgs w-44'>
                 <img src={image9} alt='image1' />
+              </div>
+              <div className='imgs w-44'>
                 <img src={image11} alt='image1' />
               </div>
             </div>
@@ -67,20 +85,38 @@ const Home = () => {
           className='slider_container'
         >
           <Marquee direction='right'>
-            <div className='image_container'>
-              <div className='imgs max-h-24 h-[300px]  flex flex-row'>
+            <div className='image_container flex flex-row'>
+              <div className='imgs w-44'>
                 <img src={image12} alt='image1' />
+              </div>
+              <div className='imgs w-44'>
                 <img src={image13} alt='image1' />
-                <img src={image14} alt='image1' />
+              </div>
+              <div className='imgs w-44'>
                 <img src={image15} alt='image1' />
+              </div>
+              <div className='imgs w-44'>
                 <img src={image16} alt='image1' />
+              </div>
+              <div className='imgs w-44'>
                 <img src={image20} alt='image1' />
-                <img src={image9} alt='image1' />
-                <img src={image4} alt='image1' />
+              </div>
+              <div className='imgs w-44'>
+                <img src={image18} alt='image1' />
+              </div>
+              <div className='imgs w-44'>
                 <img src={image1} alt='image1' />
-                <img src={image17} alt='image1' />
-                <img src={image6} alt='image1' />
-                <img src={image8} alt='image1' />
+              </div>
+              <div className='imgs w-44'>
+                <img src={image15} alt='image1' />
+              </div>
+              <div className='imgs w-44'>
+                <img src={image13} alt='image1' />
+              </div>
+              <div className='imgs w-44'>
+                <img src={image9} alt='image1' />
+              </div>
+              <div className='imgs w-44'>
                 <img src={image7} alt='image1' />
               </div>
             </div>
@@ -92,17 +128,35 @@ const Home = () => {
           className='slider_container  max-w-[90%]'
         >
           <Marquee direction='left'>
-            <div className='image_container'>
-              <div className='imgs max-h-24 h-[300px]  flex flex-row'>
+            <div className='image_container flex flex-row'>
+              <div className='imgs w-44'>
                 <img src={image16} alt='image1' />
+              </div>
+              <div className='imgs w-44'>
                 <img src={image17} alt='image1' />
-                <img src={image18} alt='image1' />
-                <img src={image4} alt='image1' />
-                <img src={image20} alt='image1' />
+              </div>
+              <div className='imgs w-44'>
                 <img src={image6} alt='image1' />
-                <img src={image7} alt='image1' />
-                <img src={image5} alt='image1' />
+              </div>
+              <div className='imgs w-44'>
+                <img src={image18} alt='image1' />
+              </div>
+              <div className='imgs w-44'>
+                <img src={image4} alt='image1' />
+              </div>
+              <div className='imgs w-44'>
+                <img src={image4} alt='image1' />
+              </div>
+              <div className='imgs w-44'>
+                <img src={image20} alt='image1' />
+              </div>
+              <div className='imgs w-44'>
                 <img src={image19} alt='image1' />
+              </div>
+              <div className='imgs w-44'>
+                <img src={image5} alt='image1' />
+              </div>
+              <div className='imgs w-44'>
                 <img src={image7} alt='image1' />
               </div>
             </div>
@@ -111,14 +165,14 @@ const Home = () => {
         <motion.div
           animate={{ y: [1000, 3], opacity: [0, 1] }}
           transition={{ stiffness: 100, delay: 2, duration: 5 }}
-          className='button mt-10 w-full px-6 md:flex md:items-center md:justify-center'
+          className='button mt-5 w-full px-6 flex items-center justify-center'
         >
           <Button
             variant='outlined'
             sx={{
               color: "#fff",
               borderRadius: "6px",
-              width: "90%",
+              width: "55%",
               p: 1,
               border: "2px solid #fff",
             }}

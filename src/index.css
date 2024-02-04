@@ -42,3 +42,6 @@ img {
   background: #ccc;
   height: 200px;
 }
+.image_container img {
+  width: 100% !important;
+}
